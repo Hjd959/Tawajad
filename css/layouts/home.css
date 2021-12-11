@@ -1,0 +1,189 @@
+.cleaer {
+  clear: both;
+}
+
+.borders {
+  margin-bottom: 60px;
+}
+.borders hr {
+  width: 50%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border: none !important;
+  border-bottom: 1px solid #474747 !important;
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  .borders {
+    margin-bottom: 40px;
+  }
+}
+.h4 {
+  margin-bottom: 30px;
+  text-align: center;
+  display: block;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #474747;
+}
+.h4 span {
+  margin-top: 10px;
+  display: block;
+  text-transform: lowercase;
+  font-size: 19px;
+}
+
+@media (max-width: 768px) {
+  .h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  .h4 span {
+    font-size: 14px;
+  }
+}
+main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+}
+main .main-background {
+  background-image: url("../../images/back2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-position: 100%;
+  text-align: center;
+  height: 570px;
+  overflow-y: hidden;
+}
+main .main-background .details-text {
+  text-align: right;
+  transform: translate(0px, 120px);
+  width: 50%;
+}
+main .main-background .details-text h2 {
+  line-height: 55px;
+  color: #aa6764;
+  font-size: 38px;
+  font-family: "beIN", "cairo";
+}
+main .main-background .details-text p {
+  margin-top: 17px;
+  color: #6b6b6b;
+  line-height: 35px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "cairo";
+}
+main .main-background .details-text button {
+  border-radius: 20px;
+  padding: 7px 25px;
+  margin-top: 20px;
+  font-family: "beIN", "cairo";
+}
+main .main-background .details-text button:hover {
+  background-color: #aa6764;
+  border-color: #aa6764;
+  color: #fff;
+}
+main .main-background .details-text button:nth-of-type(2) {
+  margin-right: 20px;
+}
+@media (max-width: 768px) {
+  main .main-background {
+    height: 630px;
+  }
+}
+main .food-categories {
+  position: relative;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  margin: auto;
+  margin-top: 100px;
+  padding-bottom: 70px;
+  padding-top: 50px;
+  text-align: center;
+}
+main .food-categories .label-icon-of-categories {
+  width: 130px;
+  height: 130px;
+  background-color: #fc5000;
+  border-radius: 50%;
+  margin: auto;
+  transform: translate(0, -50%);
+  border: 7px solid #F5FCFD;
+}
+main .food-categories .label-icon-of-categories i, main .food-categories .label-icon-of-categories span {
+  color: #fff;
+  font-size: 55px;
+  transform: translate(0px, 32px);
+}
+main .food-categories .label-icon-of-categories span {
+  font-family: "beIN", "cairo";
+  transform: translate(0px, 32px);
+  line-height: 120px;
+  font-size: 65px;
+}
+main .food-categories .card-body-edit {
+  transform: translate(0, -15%);
+}
+main .food-categories .card-body-edit h5, main .food-categories .card-body-edit p, main .food-categories .card-body-edit button {
+  font-family: "beIN", "cairo";
+  color: #3f3f3f;
+}
+main .food-categories .card-body-edit h5 {
+  color: #aa6764;
+  font-size: 30px;
+}
+main .food-categories .card-body-edit p {
+  font-family: "cairo";
+  font-size: 15px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+main .food-categories .card-body-edit button {
+  border-radius: 20px;
+  padding: 7px 25px;
+  margin-top: 20px;
+  font-family: "beIN", "cairo";
+}
+main .food-categories .card-body-edit button:hover {
+  background-color: #aa6764;
+  border-color: #aa6764;
+  color: #fff;
+}
+main .supporters {
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+main .supporters h1 {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+  font-family: "beIN";
+  color: #aa6764;
+}
+main .supporters .cards-cnt {
+  text-align: center;
+}
+main .supporters .card {
+  background-color: transparent;
+  border: none;
+}
+@media (max-width: 768px) {
+  main .food-categories {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */
